@@ -7,6 +7,7 @@ WORKDIR /app
 # Copy the requirements.txt file and install packages
 COPY requirements.txt .
 RUN pip install -r requirements.txt
+RUN pip install pytest
 
 # Copy the rest of the application
 COPY . /app
