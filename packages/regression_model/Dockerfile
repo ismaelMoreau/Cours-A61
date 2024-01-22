@@ -14,7 +14,11 @@ RUN pip install -r requirements.txt
 RUN pip install tox
 
 # Copy the entire project into the container
-COPY . .
+COPY . /app
+
+RUN cd /app/regression_model && \
+    tox -e install_locally
+RUN pip install -e .
 
 # Command to run your Python application (or in this case, open a bash shell)
 CMD [ "/bin/bash" ]
