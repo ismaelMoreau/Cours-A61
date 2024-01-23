@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy the requirements.txt file and install packages
 COPY regression_model/requirements.txt /app
 RUN pip install -r requirements.txt
-RUN pip install pytest tox flask
+RUN pip install pytest tox flask marshmallow==2.17.0
 
 # Copy the rest of the application
 COPY . /app
