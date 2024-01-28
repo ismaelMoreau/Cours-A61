@@ -25,7 +25,7 @@ Structure du Projet
 
 Informations Supplémentaires
 
-    les document note.pdf contient les differences face au document original de demarche et des capture decran pour montrer les succes et une conclusion
+    Le document "notes.pdf" récapitule les divergences par rapport au document original de la démarche et inclut des captures d'écran illustrant les réussites.
 
 Conclusion 
 
